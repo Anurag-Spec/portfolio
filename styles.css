@@ -59,15 +59,18 @@ li{
 }
 #projects{
     display: grid;
-    margin: 3rem;
+    margin: auto;
+    margin-top: 2rem;
     background-color: var(--welcome-background);
     padding: 2rem;
+    width: 70%;
 }
 .projects-grid{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .projects-header{
     color: var(--nav-link);
@@ -79,7 +82,9 @@ li{
     justify-content: center;
     align-items: center;
     background-color: var(--welcome-background);
-    margin: 2rem;
+    margin: auto;
+    width: 60%;
+    margin-top: 2rem;
     padding: 1rem;
 }
 .contact-header{
@@ -101,7 +106,8 @@ li{
 #footer{
     background-color: var(--nav-background);
     width: 100%;
-    margin: 2rem 0 0 0;
+    margin: auto;
+    margin-top: 2rem;
     padding: 2rem 0;
     font-size: 0.8rem;
     text-align: right;
